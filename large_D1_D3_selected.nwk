@@ -1,0 +1,143 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=41;
+	taxlabels
+	'AB604964.1 Gambierdiscus scabrosus'
+	'AB605004.1 Gambierdiscus scabrosus'
+	'AB605009.1 Gambierdiscus scabrosus'
+	'EF202945.1 Gambierdiscus pacificus'
+	'EF202946.1 Gambierdiscus pacificus'
+	'EF202947.1 Gambierdiscus pacificus'
+	'EF202948.1 Gambierdiscus belizeanus'
+	'EF202950.1 Gambierdiscus belizeanus'
+	'EF202951.1 Gambierdiscus toxicus'
+	'EF202954.1 Gambierdiscus toxicus'
+	'EF202960.1 Gambierdiscus toxicus'
+	'EF202965.1 Gambierdiscus yasumotoi'
+	'EF202966.1 Gambierdiscus yasumotoi'
+	'EF202967.1 Gambierdiscus yasumotoi'
+	'FJ411146.1 Alexandrium tamarense'
+	'FJ411147.1 Alexandrium fundyense'
+	'HE775087.1 Gambierdiscus caribaeus'
+	'KF752546.1 Alexandrium insuetum'
+	'KJ922639.1 Gambierdiscus silvae'
+	'KM219120.1 Gambierdiscus polynesiensis'
+	'KR230004.1 Gambierdiscus caribaeus'
+	'KR230005.1 Gambierdiscus caribaeus'
+	'KR230006.1 Gambierdiscus australes'
+	'KU674345.1 Gambierdiscus cheloniae'
+	'KU674346.1 Gambierdiscus honu'
+	'KY062662.1 Gambierdiscus honu'
+	'KY069059.1 Gambierdiscus australes'
+	'MG280888.1 Gambierdiscus carpenteri'
+	'MG280889.1 Gambierdiscus carpenteri'
+	'MG280890.1 Gambierdiscus carpenteri'
+	'MH827558.1 Gambierdiscus jejuensis'
+	'MH827561.1 Gambierdiscus jejuensis'
+	'MH930987.1 Gambierdiscus polynesiensis'
+	'MH930988.1 Gambierdiscus polynesiensis'
+	'MH930989.1 Gambierdiscus australes'
+	'MT248304.1 Gambierdiscus belizeanus'
+	'MT248305.1 Gambierdiscus carolinianus'
+	'MT248307.1 Gambierdiscus excentricus'
+	'MT248308.1 Gambierdiscus excentricus'
+	'MT248309.1 Gambierdiscus excentricus'
+	'MT248314.1 Gambierdiscus silvae'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('FJ411146.1 Alexandrium tamarense':0.0,'FJ411147.1 Alexandrium fundyense':7.36E-4,('KF752546.1 Alexandrium insuetum'[&!rotate=false]:0.053991,(('EF202965.1 Gambierdiscus yasumotoi':0.002864,('EF202967.1 Gambierdiscus yasumotoi':9.55E-4,'EF202966.1 Gambierdiscus yasumotoi':0.001908)[&label=0]:0.0)[&label=187.426]:0.306539,((('MT248305.1 Gambierdiscus carolinianus':0.124186,('MT248314.1 Gambierdiscus silvae':0.023315,('MH930987.1 Gambierdiscus polynesiensis':0.0,('MH930988.1 Gambierdiscus polynesiensis':0.0,'KM219120.1 Gambierdiscus polynesiensis':0.0)[&label=2.28E-4]:0.001046)[&label=11.5358]:0.008852)[&label=61.8529]:0.096894)[&label=100.065]:0.168177,((('KY069059.1 Gambierdiscus australes':0.0,'KJ922639.1 Gambierdiscus silvae':0.002197)[&label=0]:0.0,('KR230006.1 Gambierdiscus australes':0.003272,'MH930989.1 Gambierdiscus australes':1.0E-6)[&label=0]:0.0)[&label=199.649]:0.228731,('MT248309.1 Gambierdiscus excentricus':0.0,('MT248308.1 Gambierdiscus excentricus':0.0,'MT248307.1 Gambierdiscus excentricus':0.0)[&label=0]:0.0)[&label=70.7893]:0.131736)[&label=33.2878]:0.106332)[&label=29.9094]:0.102386,((('MG280889.1 Gambierdiscus carpenteri':0.0,('MG280890.1 Gambierdiscus carpenteri':0.0,'MG280888.1 Gambierdiscus carpenteri':0.0)[&label=0]:0.0)[&label=12.6967]:0.021126,(('KR230005.1 Gambierdiscus caribaeus':0.0,'KR230004.1 Gambierdiscus caribaeus':0.0)[&label=74.9769]:0.029221,('MH827561.1 Gambierdiscus jejuensis':0.0,'MH827558.1 Gambierdiscus jejuensis':0.0)[&label=111.085]:0.031016)[&label=3.37243]:0.017178)[&label=153.319]:0.244188,(('MT248304.1 Gambierdiscus belizeanus':0.046984,('KY062662.1 Gambierdiscus honu':0.002546,'KU674346.1 Gambierdiscus honu':3.2E-4)[&label=107.46]:0.051484)[&label=13.5817]:0.033003,(('HE775087.1 Gambierdiscus caribaeus':0.0,('EF202950.1 Gambierdiscus belizeanus':0.0,'EF202948.1 Gambierdiscus belizeanus':0.0)[&label=0]:1.0E-6)[&label=0]:0.130595,(('AB605009.1 Gambierdiscus scabrosus':0.006035,('AB604964.1 Gambierdiscus scabrosus':0.005149,'AB605004.1 Gambierdiscus scabrosus':0.003581)[&label=0.551344]:0.001306)[&label=155.001]:0.079419,('KU674345.1 Gambierdiscus cheloniae':0.180958,(('EF202951.1 Gambierdiscus toxicus':0.00187,('EF202954.1 Gambierdiscus toxicus':9.33E-4,'EF202960.1 Gambierdiscus toxicus':0.0)[&label=0]:0.0)[&label=88.8596]:0.02283,(('EF202947.1 Gambierdiscus pacificus':0.0,'EF202946.1 Gambierdiscus pacificus':0.003723)[&label=0]:0.0,'EF202945.1 Gambierdiscus pacificus':0.001856)[&label=48.0484]:0.016669)[&label=3.24782]:0.014446)[&label=43.1156]:0.053768)[&label=40.4555]:0.041204)[&label=0.253504]:0.015168)[&label=287.756]:0.376314)[&label=1.81855]:0.038532)[&label=25.5688]:0.088799)[&label=145.635]:0.225277)[&label=102.951,!rotate=false]:0.107218);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Times New Roman";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=48;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Times New Roman";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=true;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.25;
+	set scaleAxis.minorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=21.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=4.0;
+	set scaleBar.scaleRange=0.2;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Times New Roman";
+	set tipLabels.fontSize=20;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
